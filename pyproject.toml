@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tmp"
+version = "0.1.0"
+description = ""
+authors = ["umar1593 <umar1593@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.2"
+black = "^22.10"
+coverage = "^6.5.0"
+requests = "^2.28.1"
+validators = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
